@@ -1,0 +1,57 @@
+.loading-map{
+    position:fixed;
+    top:0;
+    right:0;
+    background-color: black;
+    color:White;
+    width:100vw;
+    height:100vh;
+}
+.search-container{
+    position:fixed;
+    top:20px;
+    left:20px;
+    background-color:white;
+    z-index: 999;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    width:250px;
+    padding:5px;
+    border-radius: 5px;
+}
+.pointer{
+    cursor:pointer;
+}
+.logo{
+    width:60px;
+    height:60px;
+    position:fixed;
+    bottom:22px;
+    right:35px;
+    border-radius: 90px;
+    background-color: black;
+}
+.rotating {
+    position:fixed;
+    bottom:0px;
+    right:20px;
+    z-index:999;
+    transform: scaleX(-1);
+}
+
+@keyframes rotate {from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}}
+@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
+  to {-webkit-transform: rotate(360deg);}}
+.rotating{
+    -webkit-animation: 3s rotate ease infinite;
+    animation: 2s rotate ease infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+.copyright{
+    position:fixed;
+    bottom:6px;
+    left:100px;
+    z-index:1000;
+    color:white;
+}
