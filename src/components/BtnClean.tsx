@@ -17,7 +17,7 @@ export const BtnClean = () => {
     }
 
   return (
-    <div className="btn btn-danger girar" 
+    <div className="btn btn-danger btn-borrar" 
         onClick={onClick}
 >
         Borrar ruta

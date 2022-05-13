@@ -55,3 +55,9 @@
     z-index:1000;
     color:white;
 }
+.btn-borrar{
+    position:fixed;
+    top:70px;
+    right:20px;
+    z-index: 999;
+}
